@@ -48,6 +48,13 @@ func NewHostnameHandler(c Config, backend IPFSBackend, next http.Handler) http.H
 			host = xHost
 		}
 
+		// Comply with user agents that explicitly requested plain path processing
+		// (used by CLI and non-browser tools to disable Host-based subdomain redirects etc)
+		if mode := r.Header.Get("Ipfs-Gateway-Mode"); mode == "path" {
+			next.ServeHTTP(w, withHostnameContext(r, host))
+			return
+		}
+
 		// HTTP Host & Path check: is this one of our  "known gateways"?
 		if gw, ok := gateways.isKnownHostname(host); ok {
 			// This is a known gateway but request is not using
