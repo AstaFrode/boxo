@@ -8,11 +8,11 @@ import (
 	"os"
 	"path/filepath"
 
-	pb "github.com/ipfs/boxo/filestore/pb"
+	pb "github.com/AstaFrode/boxo/filestore/pb"
 
+	dshelp "github.com/AstaFrode/boxo/datastore/dshelp"
+	posinfo "github.com/AstaFrode/boxo/filestore/posinfo"
 	proto "github.com/gogo/protobuf/proto"
-	dshelp "github.com/ipfs/boxo/datastore/dshelp"
-	posinfo "github.com/ipfs/boxo/filestore/posinfo"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"

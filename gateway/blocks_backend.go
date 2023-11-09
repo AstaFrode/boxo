@@ -10,20 +10,22 @@ import (
 	gopath "path"
 	"strings"
 
-	"github.com/ipfs/boxo/blockservice"
-	blockstore "github.com/ipfs/boxo/blockstore"
-	nsopts "github.com/ipfs/boxo/coreiface/options/namesys"
-	ifacepath "github.com/ipfs/boxo/coreiface/path"
-	"github.com/ipfs/boxo/fetcher"
-	bsfetcher "github.com/ipfs/boxo/fetcher/impl/blockservice"
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/ipld/merkledag"
-	ufile "github.com/ipfs/boxo/ipld/unixfs/file"
-	uio "github.com/ipfs/boxo/ipld/unixfs/io"
-	"github.com/ipfs/boxo/namesys"
-	"github.com/ipfs/boxo/namesys/resolve"
-	ipfspath "github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/path/resolver"
+	"github.com/AstaFrode/boxo/blockservice"
+	blockstore "github.com/AstaFrode/boxo/blockstore"
+	nsopts "github.com/AstaFrode/boxo/coreiface/options/namesys"
+	ifacepath "github.com/AstaFrode/boxo/coreiface/path"
+	"github.com/AstaFrode/boxo/fetcher"
+	bsfetcher "github.com/AstaFrode/boxo/fetcher/impl/blockservice"
+	"github.com/AstaFrode/boxo/files"
+	"github.com/AstaFrode/boxo/ipld/merkledag"
+	ufile "github.com/AstaFrode/boxo/ipld/unixfs/file"
+	uio "github.com/AstaFrode/boxo/ipld/unixfs/io"
+	"github.com/AstaFrode/boxo/namesys"
+	"github.com/AstaFrode/boxo/namesys/resolve"
+	ipfspath "github.com/AstaFrode/boxo/path"
+	"github.com/AstaFrode/boxo/path/resolver"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/routing"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
@@ -40,9 +42,6 @@ import (
 	"github.com/ipld/go-ipld-prime/traversal"
 	"github.com/ipld/go-ipld-prime/traversal/selector"
 	selectorparse "github.com/ipld/go-ipld-prime/traversal/selector/parse"
-	routinghelpers "github.com/libp2p/go-libp2p-routing-helpers"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/routing"
 	mc "github.com/multiformats/go-multicodec"
 
 	// Ensure basic codecs are registered.
@@ -121,7 +120,7 @@ func NewBlocksBackend(blockService blockservice.BlockService, opts ...BlocksBack
 
 	vs = compiledOptions.vs
 	if vs == nil {
-		vs = routinghelpers.Null{}
+		//vs = routinghelpers.Null{}
 	}
 
 	ns = compiledOptions.ns

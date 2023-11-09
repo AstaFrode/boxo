@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	dag "github.com/ipfs/boxo/ipld/merkledag"
+	dag "github.com/AstaFrode/boxo/ipld/merkledag"
 
-	blockstore "github.com/ipfs/boxo/blockstore"
-	posinfo "github.com/ipfs/boxo/filestore/posinfo"
+	blockstore "github.com/AstaFrode/boxo/blockstore"
+	posinfo "github.com/AstaFrode/boxo/filestore/posinfo"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
 	ipld "github.com/ipfs/go-ipld-format"

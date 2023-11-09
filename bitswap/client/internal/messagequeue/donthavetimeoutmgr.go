@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AstaFrode/go-libp2p/p2p/protocol/ping"
 	"github.com/benbjohnson/clock"
 	cid "github.com/ipfs/go-cid"
-	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
 )
 
 const (

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	coreiface "github.com/ipfs/boxo/coreiface"
-	opt "github.com/ipfs/boxo/coreiface/options"
-	path "github.com/ipfs/boxo/coreiface/path"
-	"github.com/ipfs/boxo/files"
-	"github.com/ipfs/boxo/ipns"
+	coreiface "github.com/AstaFrode/boxo/coreiface"
+	opt "github.com/AstaFrode/boxo/coreiface/options"
+	path "github.com/AstaFrode/boxo/coreiface/path"
+	"github.com/AstaFrode/boxo/files"
+	"github.com/AstaFrode/boxo/ipns"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	bsfetcher "github.com/ipfs/boxo/fetcher/impl/blockservice"
+	bsfetcher "github.com/AstaFrode/boxo/fetcher/impl/blockservice"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	dagpb "github.com/ipld/go-codec-dagpb"
@@ -19,10 +19,10 @@ import (
 	"github.com/ipld/go-ipld-prime/schema"
 	"github.com/multiformats/go-multihash"
 
-	merkledag "github.com/ipfs/boxo/ipld/merkledag"
-	dagmock "github.com/ipfs/boxo/ipld/merkledag/test"
-	path "github.com/ipfs/boxo/path"
-	"github.com/ipfs/boxo/path/resolver"
+	merkledag "github.com/AstaFrode/boxo/ipld/merkledag"
+	dagmock "github.com/AstaFrode/boxo/ipld/merkledag/test"
+	path "github.com/AstaFrode/boxo/path"
+	"github.com/AstaFrode/boxo/path/resolver"
 	"github.com/ipfs/go-unixfsnode"
 	dagcbor "github.com/ipld/go-ipld-prime/codec/dagcbor"
 	dagjson "github.com/ipld/go-ipld-prime/codec/dagjson"

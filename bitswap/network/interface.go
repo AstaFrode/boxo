@@ -4,14 +4,14 @@ import (
 	"context"
 	"time"
 
-	bsmsg "github.com/ipfs/boxo/bitswap/message"
-	"github.com/ipfs/boxo/bitswap/network/internal"
+	bsmsg "github.com/AstaFrode/boxo/bitswap/message"
+	"github.com/AstaFrode/boxo/bitswap/network/internal"
 
 	cid "github.com/ipfs/go-cid"
 
-	"github.com/libp2p/go-libp2p/core/connmgr"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
+	"github.com/AstaFrode/go-libp2p/core/connmgr"
+	"github.com/AstaFrode/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/p2p/protocol/ping"
 )
 
 var (

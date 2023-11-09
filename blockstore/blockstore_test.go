@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	u "github.com/ipfs/boxo/util"
+	u "github.com/AstaFrode/boxo/util"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"

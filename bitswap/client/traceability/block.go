@@ -3,8 +3,8 @@ package traceability
 import (
 	"time"
 
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	blocks "github.com/ipfs/go-block-format"
-	"github.com/libp2p/go-libp2p/core/peer"
 )
 
 // Block is a block whose provenance has been tracked.

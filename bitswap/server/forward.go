@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/ipfs/boxo/bitswap/server/internal/decision"
+	"github.com/AstaFrode/boxo/bitswap/server/internal/decision"
 )
 
 type (

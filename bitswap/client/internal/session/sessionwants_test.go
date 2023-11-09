@@ -3,8 +3,8 @@ package session
 import (
 	"testing"
 
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
-	"github.com/ipfs/boxo/internal/test"
+	"github.com/AstaFrode/boxo/bitswap/internal/testutil"
+	"github.com/AstaFrode/boxo/internal/test"
 	cid "github.com/ipfs/go-cid"
 )
 

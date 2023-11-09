@@ -1,8 +1,8 @@
 package tracer
 
 import (
-	bsmsg "github.com/ipfs/boxo/bitswap/message"
-	peer "github.com/libp2p/go-libp2p/core/peer"
+	bsmsg "github.com/AstaFrode/boxo/bitswap/message"
+	peer "github.com/AstaFrode/go-libp2p/core/peer"
 )
 
 // Tracer provides methods to access all messages sent and received by Bitswap.

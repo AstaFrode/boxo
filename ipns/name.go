@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/ipfs/go-cid"
-	"github.com/libp2p/go-libp2p/core/peer"
 	mb "github.com/multiformats/go-multibase"
 	mc "github.com/multiformats/go-multicodec"
 	mh "github.com/multiformats/go-multihash"

@@ -16,9 +16,9 @@ import (
 	"crypto/rand"
 	"time"
 
-	"github.com/ipfs/boxo/ipns"
-	"github.com/ipfs/boxo/path"
-	ic "github.com/libp2p/go-libp2p/core/crypto"
+	"github.com/AstaFrode/boxo/ipns"
+	"github.com/AstaFrode/boxo/path"
+	ic "github.com/AstaFrode/go-libp2p/core/crypto"
 )
 
 func main() {

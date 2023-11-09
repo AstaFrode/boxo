@@ -3,11 +3,11 @@ package iface
 import (
 	"context"
 
-	"github.com/ipfs/boxo/coreiface/path"
+	"github.com/AstaFrode/boxo/coreiface/path"
 
-	"github.com/ipfs/boxo/coreiface/options"
+	"github.com/AstaFrode/boxo/coreiface/options"
 
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 )
 
 // DhtAPI specifies the interface to the DHT

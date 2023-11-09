@@ -30,10 +30,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	format "github.com/ipfs/boxo/ipld/unixfs"
-	"github.com/ipfs/boxo/ipld/unixfs/internal"
+	format "github.com/AstaFrode/boxo/ipld/unixfs"
+	"github.com/AstaFrode/boxo/ipld/unixfs/internal"
 
-	dag "github.com/ipfs/boxo/ipld/merkledag"
+	dag "github.com/AstaFrode/boxo/ipld/merkledag"
 	bitfield "github.com/ipfs/go-bitfield"
 	cid "github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"

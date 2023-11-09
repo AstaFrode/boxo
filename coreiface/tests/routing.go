@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	iface "github.com/ipfs/boxo/coreiface"
-	"github.com/ipfs/boxo/coreiface/options"
-	"github.com/ipfs/boxo/coreiface/path"
-	"github.com/ipfs/boxo/ipns"
+	iface "github.com/AstaFrode/boxo/coreiface"
+	"github.com/AstaFrode/boxo/coreiface/options"
+	"github.com/AstaFrode/boxo/coreiface/path"
+	"github.com/AstaFrode/boxo/ipns"
 	"github.com/stretchr/testify/require"
 )
 

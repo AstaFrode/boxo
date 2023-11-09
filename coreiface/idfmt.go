@@ -1,7 +1,7 @@
 package iface
 
 import (
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	mbase "github.com/multiformats/go-multibase"
 )
 

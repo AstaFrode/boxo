@@ -3,8 +3,8 @@ package common
 import (
 	"net/http"
 
-	"github.com/ipfs/boxo/gateway"
-	"github.com/ipfs/boxo/gateway/assets"
+	"github.com/AstaFrode/boxo/gateway"
+	"github.com/AstaFrode/boxo/gateway/assets"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"

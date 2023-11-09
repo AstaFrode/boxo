@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
+	ipath "github.com/AstaFrode/boxo/coreiface/path"
+	"github.com/AstaFrode/boxo/files"
 	"github.com/gabriel-vasile/mimetype"
-	ipath "github.com/ipfs/boxo/coreiface/path"
-	"github.com/ipfs/boxo/files"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )

@@ -11,8 +11,8 @@ import (
 	"context"
 	"errors"
 
-	blockstore "github.com/ipfs/boxo/blockstore"
-	posinfo "github.com/ipfs/boxo/filestore/posinfo"
+	blockstore "github.com/AstaFrode/boxo/blockstore"
+	posinfo "github.com/AstaFrode/boxo/filestore/posinfo"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	dsq "github.com/ipfs/go-datastore/query"

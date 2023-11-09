@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
-	"github.com/ipfs/boxo/internal/test"
-	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/AstaFrode/boxo/bitswap/internal/testutil"
+	"github.com/AstaFrode/boxo/internal/test"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/stretchr/testify/require"
 )
 

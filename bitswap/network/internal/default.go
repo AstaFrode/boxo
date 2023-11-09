@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/AstaFrode/go-libp2p/core/protocol"
 )
 
 var (

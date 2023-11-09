@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
+	dag "github.com/AstaFrode/boxo/ipld/merkledag"
 	proto "github.com/gogo/protobuf/proto"
-	dag "github.com/ipfs/boxo/ipld/merkledag"
 
-	pb "github.com/ipfs/boxo/ipld/unixfs/pb"
+	pb "github.com/AstaFrode/boxo/ipld/unixfs/pb"
 	ipld "github.com/ipfs/go-ipld-format"
 )
 

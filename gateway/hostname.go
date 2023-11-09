@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	cid "github.com/ipfs/go-cid"
-	"github.com/libp2p/go-libp2p/core/peer"
 	dns "github.com/miekg/dns"
 
 	mbase "github.com/multiformats/go-multibase"

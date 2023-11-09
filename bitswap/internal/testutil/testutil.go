@@ -4,12 +4,12 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/ipfs/boxo/bitswap/client/wantlist"
-	bsmsg "github.com/ipfs/boxo/bitswap/message"
+	"github.com/AstaFrode/boxo/bitswap/client/wantlist"
+	bsmsg "github.com/AstaFrode/boxo/bitswap/message"
+	peer "github.com/AstaFrode/go-libp2p/core/peer"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
 	blocksutil "github.com/ipfs/go-ipfs-blocksutil"
-	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 
 var (

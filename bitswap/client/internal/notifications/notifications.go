@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/AstaFrode/boxo/bitswap/client/traceability"
+	"github.com/AstaFrode/go-libp2p/core/peer"
 	pubsub "github.com/cskr/pubsub"
-	"github.com/ipfs/boxo/bitswap/client/traceability"
 	blocks "github.com/ipfs/go-block-format"
 	cid "github.com/ipfs/go-cid"
-	"github.com/libp2p/go-libp2p/core/peer"
 )
 
 const bufferSize = 16

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AstaFrode/boxo/ipns"
 	"github.com/cespare/xxhash/v2"
-	"github.com/ipfs/boxo/ipns"
 	"github.com/ipfs/go-cid"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"

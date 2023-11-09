@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	migrate "github.com/ipfs/boxo/cmd/boxo-migrate/internal"
+	migrate "github.com/AstaFrode/boxo/cmd/boxo-migrate/internal"
 	"github.com/urfave/cli/v2"
 )
 

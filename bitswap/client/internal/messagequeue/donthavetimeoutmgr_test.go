@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/AstaFrode/boxo/bitswap/internal/testutil"
+	"github.com/AstaFrode/boxo/internal/test"
+	"github.com/AstaFrode/go-libp2p/p2p/protocol/ping"
 	"github.com/benbjohnson/clock"
-	"github.com/ipfs/boxo/bitswap/internal/testutil"
-	"github.com/ipfs/boxo/internal/test"
 	cid "github.com/ipfs/go-cid"
-	"github.com/libp2p/go-libp2p/p2p/protocol/ping"
 )
 
 type mockPeerConn struct {

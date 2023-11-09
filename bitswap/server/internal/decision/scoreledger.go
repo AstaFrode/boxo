@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
+	peer "github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/benbjohnson/clock"
-	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 
 const (

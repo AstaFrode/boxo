@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
+	peer "github.com/AstaFrode/go-libp2p/core/peer"
 	cid "github.com/ipfs/go-cid"
-	peer "github.com/libp2p/go-libp2p/core/peer"
 )
 
 // Gauge can be used to keep track of a metric that increases and decreases

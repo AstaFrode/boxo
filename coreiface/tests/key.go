@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	iface "github.com/ipfs/boxo/coreiface"
-	opt "github.com/ipfs/boxo/coreiface/options"
+	iface "github.com/AstaFrode/boxo/coreiface"
+	opt "github.com/AstaFrode/boxo/coreiface/options"
 	"github.com/ipfs/go-cid"
 	mbase "github.com/multiformats/go-multibase"
 )
