@@ -11,12 +11,12 @@ import (
 	"github.com/AstaFrode/boxo/ipns"
 	"github.com/AstaFrode/boxo/path"
 	offroute "github.com/AstaFrode/boxo/routing/offline"
+	record "github.com/AstaFrode/go-libp2p-record"
 	ci "github.com/AstaFrode/go-libp2p/core/crypto"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/AstaFrode/go-libp2p/p2p/host/peerstore/pstoremem"
 	ds "github.com/ipfs/go-datastore"
 	dssync "github.com/ipfs/go-datastore/sync"
-	record "github.com/libp2p/go-libp2p-record"
 )
 
 type mockResolver struct {

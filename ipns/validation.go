@@ -7,12 +7,12 @@ import (
 	"time"
 
 	ipns_pb "github.com/AstaFrode/boxo/ipns/pb"
+	record "github.com/AstaFrode/go-libp2p-record"
 	ic "github.com/AstaFrode/go-libp2p/core/crypto"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/AstaFrode/go-libp2p/core/peerstore"
 	"github.com/ipld/go-ipld-prime/codec/dagcbor"
 	basicnode "github.com/ipld/go-ipld-prime/node/basic"
-	record "github.com/libp2p/go-libp2p-record"
 	"google.golang.org/protobuf/proto"
 )
 

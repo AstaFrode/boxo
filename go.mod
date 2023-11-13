@@ -3,8 +3,9 @@ module github.com/AstaFrode/boxo
 go 1.20
 
 require (
-	github.com/AstaFrode/go-libp2p v0.26.4-0.20231025094835-732a19c0bd0b
-	github.com/AstaFrode/go-libp2p-kad-dht v0.23.1-0.20231109074947-0279c8612966
+	github.com/AstaFrode/go-libp2p v0.26.4-0.20231113143058-912296254d44
+	github.com/AstaFrode/go-libp2p-kad-dht v0.23.1-0.20231113152435-ca99e70b9955
+	github.com/AstaFrode/go-libp2p-record v0.2.1-0.20231113144445-2b6ba1a2d403
 	github.com/AstaFrode/go-peertaskqueue v0.8.2-0.20231108073729-990e433425a4
 	github.com/alecthomas/units v0.0.0-20210927113745-59d0afb8317a
 	github.com/benbjohnson/clock v1.3.0
@@ -38,8 +39,6 @@ require (
 	github.com/jbenet/goprocess v0.1.4
 	github.com/libp2p/go-buffer-pool v0.1.0
 	github.com/libp2p/go-doh-resolver v0.4.0
-	github.com/libp2p/go-libp2p-record v0.2.0
-	github.com/libp2p/go-libp2p-testing v0.12.0
 	github.com/libp2p/go-msgio v0.3.0
 	github.com/miekg/dns v1.1.50
 	github.com/mr-tron/base58 v1.2.0
@@ -76,7 +75,7 @@ require (
 )
 
 require (
-	github.com/AstaFrode/go-libp2p-kbucket v0.5.1-0.20231109065217-dde6a45fa7ce // indirect
+	github.com/AstaFrode/go-libp2p-kbucket v0.5.1-0.20231113151623-a45fff026283 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
@@ -85,17 +84,17 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
+	github.com/gopherjs/gopherjs v0.0.0-20190430165422-3e4dfb77656c // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.7.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
-	github.com/ipfs/boxo v0.8.0 // indirect
 	github.com/ipfs/go-ipfs-pq v0.0.3 // indirect
 	github.com/ipfs/go-ipfs-util v0.0.2 // indirect
 	github.com/ipfs/go-log v1.0.5 // indirect
+	github.com/ipfs/go-unixfs v0.4.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
-	github.com/libp2p/go-libp2p v0.26.3 // indirect
 	github.com/libp2p/go-libp2p-asn-util v0.2.0 // indirect
 	github.com/libp2p/go-netroute v0.2.1 // indirect
 	github.com/mattn/go-isatty v0.0.17 // indirect

@@ -5,12 +5,12 @@ import (
 	"context"
 	"errors"
 
+	record "github.com/AstaFrode/go-libp2p-record"
 	"github.com/AstaFrode/go-libp2p/core/host"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/AstaFrode/go-libp2p/core/routing"
 	"github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
-	record "github.com/libp2p/go-libp2p-record"
 )
 
 type nilclient struct{}

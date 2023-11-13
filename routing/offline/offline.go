@@ -9,13 +9,13 @@ import (
 	"time"
 
 	dshelp "github.com/AstaFrode/boxo/datastore/dshelp"
+	record "github.com/AstaFrode/go-libp2p-record"
+	pb "github.com/AstaFrode/go-libp2p-record/pb"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/AstaFrode/go-libp2p/core/routing"
 	"github.com/gogo/protobuf/proto"
 	"github.com/ipfs/go-cid"
 	ds "github.com/ipfs/go-datastore"
-	record "github.com/libp2p/go-libp2p-record"
-	pb "github.com/libp2p/go-libp2p-record/pb"
 )
 
 // ErrOffline is returned when trying to perform operations that

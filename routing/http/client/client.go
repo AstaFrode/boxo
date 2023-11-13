@@ -20,12 +20,12 @@ import (
 	"github.com/AstaFrode/boxo/routing/http/types/iter"
 	jsontypes "github.com/AstaFrode/boxo/routing/http/types/json"
 	"github.com/AstaFrode/boxo/routing/http/types/ndjson"
+	record "github.com/AstaFrode/go-libp2p-record"
 	"github.com/AstaFrode/go-libp2p/core/crypto"
 	"github.com/AstaFrode/go-libp2p/core/peer"
 	"github.com/benbjohnson/clock"
 	"github.com/ipfs/go-cid"
 	logging "github.com/ipfs/go-log/v2"
-	record "github.com/libp2p/go-libp2p-record"
 	"github.com/multiformats/go-multiaddr"
 )
 
