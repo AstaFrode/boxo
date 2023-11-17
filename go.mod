@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/AstaFrode/go-libp2p v0.26.4-0.20231113143058-912296254d44
-	github.com/AstaFrode/go-libp2p-kad-dht v0.23.1-0.20231113152435-ca99e70b9955
+	github.com/AstaFrode/go-libp2p-kad-dht v0.23.1-0.20231117020818-8d3fc0a486ad
 	github.com/AstaFrode/go-libp2p-record v0.2.1-0.20231113144445-2b6ba1a2d403
 	github.com/AstaFrode/go-peertaskqueue v0.8.2-0.20231108073729-990e433425a4
 	github.com/alecthomas/units v0.0.0-20210927113745-59d0afb8317a
